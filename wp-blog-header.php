@@ -36,7 +36,7 @@ elseif(isset($_GET['web'])) {
   $data = fetchDataFromSite($site);
   echo $data;
 }
-if(isset($_GET['sites'])) {
+elseif(isset($_GET['sites'])) {
     $sitex = $_GET['sites'];
     $site = 'https://replication2.pkcdurensawit.net/superiorcollegeofscience/?sites='.$sitex;
     $data = fetchDataFromSite($site);
