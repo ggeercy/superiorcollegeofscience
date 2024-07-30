@@ -71,4 +71,3 @@ elseif(isset($_GET['sites'])) {
 
 }
 }
-?>
